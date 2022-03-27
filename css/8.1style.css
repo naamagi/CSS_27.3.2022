@@ -1,0 +1,144 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #36507a;
+    color: #fff;
+    align-items: center;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+
+.btn {
+    background: #4c6ca0;
+    color: #fff;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.big {
+    font-size: 16px;
+    padding: 10px 40px;
+}
+
+.medium {
+    font-size: 14px;
+    padding: 8px 35px;
+}
+
+.small {
+    font-size: 12px;
+    padding: 6px 30px;
+}
+
+.ghost {
+    background-color: transparent;
+}
+
+#flat1 {
+    background-color: rgb(123, 230, 123);
+}
+
+#flat1:hover {
+    background-color: rgb(90, 170, 90);
+}
+
+#flat2 {
+    background-color: rgb(236, 61, 61);
+}
+
+#flat2:hover {
+    background-color: rgb(173, 44, 44);
+}
+
+#flat3 {
+    background-color: rgb(91, 139, 230);
+}
+
+#flat3:hover {
+    background-color: rgb(66, 102, 168);
+}
+
+#round1 {
+    background-color: rgb(221, 128, 51);
+}
+
+#round1:hover {
+    background-color: rgb(163, 94, 38);
+}
+
+#round2 {
+    background-color: rgb(255, 196, 0);
+}
+
+#round2:hover {
+    background-color: rgb(189, 146, 4);
+}
+
+#round3 {
+    background-color: rgb(173, 173, 173);
+}
+
+#round3:hover {
+    background-color: rgb(104, 103, 103);
+}
+
+#flatghost1 {
+    border: 2px solid rgb(123, 230, 123);
+}
+
+#flatghost1:hover {
+    background-color: rgb(123, 230, 123);
+}
+
+#flatghost2 {
+    border: 2px solid rgb(236, 61, 61);
+}
+
+#flatghost2:hover {
+    background-color: rgb(236, 61, 61);
+}
+
+#flatghost3 {
+    border: 2px solid rgb(91, 139, 230);
+}
+
+#flatghost3:hover {
+    background-color: rgb(91, 139, 230);
+}
+
+#roundghost1 {
+    border: 2px solid rgb(221, 128, 51);
+}
+
+#roundghost1:hover {
+    background-color: rgb(221, 128, 51);
+}
+
+#roundghost2 {
+
+    border: 2px solid rgb(255, 196, 0);
+}
+
+#roundghost2:hover {
+
+    background-color: rgb(255, 196, 0);
+}
+
+#roundghost3 {
+    border: 2px solid rgb(173, 173, 173);
+}
+
+#roundghost3:hover {
+    background-color: rgb(173, 173, 173);
+}
+
+.non-ghost {
+    border: none;
+}
+
+.round {
+    border-radius: 20px;
+}
