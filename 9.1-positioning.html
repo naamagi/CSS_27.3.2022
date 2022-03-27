@@ -1,0 +1,23 @@
+<!-- An element with Absolute position is positioned relative to its parent element that is positioned "relative".
+Since the outer element is not relative, the inner element will use the body as outer element. 
+Therefore the inner element is 10px below the body's top.
+In order to have the element in the required place, I added position: relative; to the outer element.-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/9.1style.css"type="text/css">
+</head>
+
+<body>
+    <div id="outer">
+        <div id="inner"></div>
+    </div>
+</body>
+
+</html>
